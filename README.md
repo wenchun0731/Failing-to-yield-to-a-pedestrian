@@ -2,6 +2,7 @@
 #### 車牌辨識：https://github.com/wenchun0731/plates-identify
 #### 行人穿越線辨識：https://github.com/wenchun0731/crosswalk_identify
 系統包含使用YoloV8進行行人、車輛、車牌的追蹤，以及使用OpenCV完成車牌辨識、尋找行人穿越線的邊界，最後取得車輛及行人的座標判斷是否違規。未禮讓行人違規定義為:當車輛與行人前後距離小於三個枕木紋，車輛即算違規。
+|                   |                   |
 |-------------------|-------------------|
 |車輛未碰到行人穿越線，為綠色追蹤框。|此時車輛與行人皆在行人穿越線內並且距離小於三個枕木紋，判斷違規。|
 |![](src/no_rule_car.png)|![](src/car_on_crosswalk.png)|
